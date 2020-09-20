@@ -14,7 +14,7 @@
   padding: 0 20px;
   display:flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .user_name {
@@ -23,12 +23,21 @@
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .chat_make {
   border: 1px solid lightblue;
   font-size: 10px;
   color: deepskyblue;
   padding: 14px;
   text-decoration: none;
+}
+
+.chat_make a {
+  color: deepskyblue;
 }
 
 .side_lower {
