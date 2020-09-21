@@ -125,13 +125,16 @@ a {
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
+}
+
+.form{
   display: flex;
 }
 
 .form_input {
-  width: 100%;
   display: flex;
   background-color: white;
+  width: 100%;
 }
 
 .form_message {
